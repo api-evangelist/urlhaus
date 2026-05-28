@@ -1,0 +1,32 @@
+aid: urlhaus
+name: URLhaus
+description: "Bulk queries and Download Malware Samples"
+url: https://urlhaus-api.abuse.ch/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Anti-Malware"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Anti Malware
+  - Public APIs
+apis:
+  - name: URLhaus
+    description: "Bulk queries and Download Malware Samples"
+    humanURL: https://urlhaus-api.abuse.ch/
+    baseURL: https://urlhaus-api.abuse.ch/
+    tags:
+      - Anti Malware
+    properties:
+      - type: Documentation
+        url: https://urlhaus-api.abuse.ch/
+common:
+  - type: Website
+    url: https://urlhaus-api.abuse.ch/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
