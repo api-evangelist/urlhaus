@@ -23,6 +23,10 @@ apis:
       - type: Documentation
         url: https://urlhaus-api.abuse.ch/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/urlhaus-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/urlhaus-domain-security.yml
   - type: Website
     url: https://urlhaus-api.abuse.ch/
   - type: PublicAPIsListing
