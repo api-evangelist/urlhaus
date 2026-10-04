@@ -39,7 +39,6 @@ apis:
   - name: URLhaus
     description: "Bulk queries and Download Malware Samples"
     humanURL: https://urlhaus-api.abuse.ch/
-    baseURL: https://urlhaus-api.abuse.ch/
     tags:
       - Anti Malware
     properties:
